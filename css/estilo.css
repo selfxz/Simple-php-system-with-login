@@ -1,0 +1,49 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para la información del producto */
+.product-info {
+    text-align: center;
+    padding: 20px;
+}
+
+.product-info h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.product-info p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Estilo para la imagen del producto */
+.product-image {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+/* Estilo para el botón de PayPal */
+.paypal-button {
+    background-color: #0070ba;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 45%;
+}
+
+.paypal-button:hover {
+    background-color: #005193;
+}
+
+/* Estilo para el contenedor del botón de PayPal */
+#paypal-button-container {
+    text-align: center;
+    margin-top: 20px;
+}
